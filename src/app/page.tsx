@@ -84,10 +84,6 @@ export default function HomePage() {
               <Sparkles className="w-5 h-5" />
               Start Creating
             </Link>
-            <button className="btn btn-secondary text-lg px-8 py-4">
-              <Play className="w-5 h-5" />
-              Watch Demo
-            </button>
           </motion.div>
 
           {/* Animated Demo Preview */}
@@ -227,9 +223,7 @@ export default function HomePage() {
             </div>
             <span className="font-semibold">ManimGen</span>
           </div>
-          <p className="text-sm text-[var(--muted)]">
-            Powered by Manim Community Edition & Google Gemini
-          </p>
+
         </div>
       </footer>
     </div>

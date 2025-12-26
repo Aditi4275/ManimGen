@@ -13,9 +13,6 @@ class Settings(BaseSettings):
     openrouter_api_key: str = ""
     openrouter_model: str = "anthropic/claude-3.5-sonnet"  # Default model
     
-    # Database
-    database_url: str = "postgresql+asyncpg://postgres:postgres@localhost:5432/manimgen"
-    
     # Storage
     upload_dir: str = "./uploads"
     output_dir: str = "./outputs"

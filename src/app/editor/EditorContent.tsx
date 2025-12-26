@@ -57,7 +57,7 @@ export function EditorContent() {
     useEffect(() => {
         const initProject = async () => {
             try {
-                const response = await projectsApi.create("Untitled Project");
+                const response = await projectsApi.create("MotionScript");
                 if (response.data) {
                     setProject(response.data);
                 }

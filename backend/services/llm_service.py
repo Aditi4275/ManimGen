@@ -982,7 +982,7 @@ async def generate_manim_code(prompt: str, max_retries: int = 2) -> str:
         "Authorization": f"Bearer {settings.openrouter_api_key}",
         "Content-Type": "application/json",
         "HTTP-Referer": settings.frontend_url,
-        "X-Title": "ManimGen"
+        "X-Title": "MotionScript"
     }
     
     last_error = None

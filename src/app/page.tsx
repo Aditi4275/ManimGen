@@ -44,7 +44,7 @@ export default function HomePage() {
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 to-cyan-400 flex items-center justify-center">
               <Play className="w-4 h-4 text-white" fill="white" />
             </div>
-            <span className="text-xl font-bold">ManimGen</span>
+            <span className="text-xl font-bold">MotionScript</span>
           </div>
           <div className="flex items-center gap-4">
             <Link href="/editor" className="btn btn-primary">
@@ -205,7 +205,7 @@ export default function HomePage() {
             Ready to create your first animation?
           </h2>
           <p className="text-[var(--muted)] mb-8">
-            Join thousands of educators and content creators using ManimGen to bring their ideas to life.
+            Join thousands of educators and content creators using MotionScript to bring their ideas to life.
           </p>
           <Link href="/editor" className="btn btn-primary text-lg px-8 py-4">
             <Sparkles className="w-5 h-5" />
@@ -221,7 +221,7 @@ export default function HomePage() {
             <div className="w-6 h-6 rounded bg-gradient-to-br from-indigo-500 to-cyan-400 flex items-center justify-center">
               <Play className="w-3 h-3 text-white" fill="white" />
             </div>
-            <span className="font-semibold">ManimGen</span>
+            <span className="font-semibold">MotionScript</span>
           </div>
 
         </div>

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ManimGen - AI-Powered Animation Generator",
+  title: "MotionScript - AI-Powered Animation Generator",
   description: "Transform text prompts into stunning mathematical animations using AI and Manim",
   keywords: ["manim", "animation", "ai", "math", "video generator", "3blue1brown"],
 };

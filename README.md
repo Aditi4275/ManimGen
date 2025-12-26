@@ -1,4 +1,4 @@
-# ManimGen - AI-Powered Animation Generator
+# MotionScript - AI-Powered Animation Generator
 
 Transform text prompts into stunning mathematical animations using AI and Manim.
 
